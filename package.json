@@ -1,6 +1,10 @@
 {
+  "name": "vi-sql-rules",
+  "version": "0.1.0",
+  "description": "Interface for sql crud request creation rules. Designed to make adapters for different SQL databases and bring them to a single interface for simple operations",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "example": "ts-node example/postgres.ts"
   },
   "main": "dist/main.js",
   "author": "vishota",
